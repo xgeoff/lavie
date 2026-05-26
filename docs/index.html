@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe La Vie</title>
+    <meta
+      name="description"
+      content="Cafe La Vie is a bright Parisian coffee and patisserie concept with house-made pastries and Skyview Roastery single-origin coffee."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav" id="site-nav">
+      <div class="container nav-inner">
+        <a href="#top" class="nav-brand" aria-label="Cafe La Vie home">
+          <img class="logo logo-nav" src="./images/lavie-logo.png" alt="Cafe La Vie logo" />
+        </a>
+
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#about">Our Story</a>
+          <a href="#menu">Menu</a>
+          <a href="#roastery">Skyview Roastery</a>
+          <a href="#atmosphere">The Vibe</a>
+          <a href="#visit">Visit</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-ornaments" aria-hidden="true">
+          <svg class="ornament ornament-left" viewBox="0 0 200 200">
+            <path d="M20,100 Q60,20 100,60 Q140,100 100,140 Q60,180 20,100" fill="none" stroke="currentColor" stroke-width="0.5" />
+            <path d="M40,80 Q80,30 120,70" fill="none" stroke="currentColor" stroke-width="0.3" />
+            <circle cx="100" cy="60" r="3" fill="currentColor" opacity="0.3" />
+          </svg>
+          <svg class="ornament ornament-right" viewBox="0 0 200 200">
+            <path d="M180,100 Q140,180 100,140 Q60,100 100,60 Q140,20 180,100" fill="none" stroke="currentColor" stroke-width="0.5" />
+            <path d="M160,120 Q120,170 80,130" fill="none" stroke="currentColor" stroke-width="0.3" />
+            <circle cx="100" cy="140" r="3" fill="currentColor" opacity="0.3" />
+          </svg>
+          <svg class="ornament-wave" viewBox="0 0 800 400" preserveAspectRatio="none">
+            <path d="M0,200 Q100,150 200,180 Q300,210 400,170 Q500,130 600,160 Q700,190 800,150" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M0,220 Q100,180 200,200 Q300,220 400,190 Q500,160 600,180 Q700,200 800,170" fill="none" stroke="currentColor" stroke-width="1" />
+          </svg>
+          <span class="float-dot dot-1"></span>
+          <span class="float-dot dot-2"></span>
+          <span class="float-dot dot-3"></span>
+        </div>
+
+        <div class="container hero-inner reveal">
+          <img class="logo logo-hero" src="./images/lavie-logo.png" alt="Cafe La Vie logo" />
+
+          <div class="divider"><span>&#10047;</span></div>
+          <p class="hero-kicker">Coffee &amp; Patisserie</p>
+          <p class="hero-subtitle">
+            Where the art of espresso meets the warmth of homemade pastries
+          </p>
+          <p class="hero-pill">Est. 2024</p>
+        </div>
+
+        <a class="hero-scroll" href="#about" aria-label="Scroll to our story">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </section>
+
+      <section class="section section-white" id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Our Story</span>
+            <h2>A Certain Way of Living</h2>
+            <div class="divider"><span>&#10047;</span></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-media reveal">
+              <div class="image-frame portrait">
+                <img src="./images/cafe-interior.png" alt="Cafe La Vie interior" />
+              </div>
+              <div class="about-note">
+                <p class="note-title">La Vie</p>
+                <p class="note-copy">The life, the way, the feeling</p>
+              </div>
+              <span class="shape-circle"></span>
+            </div>
+
+            <div class="about-copy reveal">
+              <p class="dropcap-copy">
+                Cafe La Vie was born from a simple belief: that a coffee shop can be both beautiful
+                and comfortable. That you can walk into a room flooded with natural light, adorned
+                with Art Nouveau curves and living greenery, and still feel like you&apos;ve come home.
+              </p>
+              <p>
+                Our espresso is pulled with precision, our pastries are baked fresh each morning,
+                and our beans are roasted just steps away under the watchful eye of our sister
+                brand, Skyview Roastery.
+              </p>
+              <p>
+                We drew inspiration from the grand cafes of Paris, not their formality, but their
+                generosity of spirit. The feeling that the space exists for you, not the other way
+                around.
+              </p>
+
+              <div class="feature-cards">
+                <article class="feature-card">
+                  <div class="feature-icon">❦</div>
+                  <p>Fresh Daily</p>
+                </article>
+                <article class="feature-card">
+                  <div class="feature-icon">♥</div>
+                  <p>Made with Care</p>
+                </article>
+                <article class="feature-card">
+                  <div class="feature-icon">✦</div>
+                  <p>Artfully Crafted</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="menu">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">On Our Counter</span>
+            <h2>The Menu</h2>
+            <div class="divider"><span>&#10047;</span></div>
+            <p class="section-copy">
+              Every cup and every pastry, crafted with intention. Fresh daily, never compromised.
+            </p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-column reveal">
+              <div class="menu-title">
+                <span class="menu-icon">☕</span>
+                <h3>Espresso Bar</h3>
+                <span class="menu-line"></span>
+              </div>
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Espresso</h4><span>$3.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Double pulled, full-bodied and rich</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Americano</h4><span>$4.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Smooth, with a crema that lingers</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Cappuccino</h4><span>$5.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Velvety microfoam, perfectly balanced</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Latte</h4><span>$5.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Creamy and comforting, our signature pour</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Flat White</h4><span>$5.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Bold espresso, silky milk, no shortcuts</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Cortado</h4><span>$4.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Equal parts espresso and steamed milk</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Mocha</h4><span>$6.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Espresso meets Belgian chocolate</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Macchiato</h4><span>$4.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Espresso kissed with foam</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="menu-column reveal">
+              <div class="menu-title">
+                <span class="menu-icon">🥐</span>
+                <h3>Patisserie</h3>
+                <span class="menu-line"></span>
+              </div>
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Butter Croissant</h4><span>$4.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Flaky, golden, impossibly layered</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Pain au Chocolat</h4><span>$5.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Dark chocolate, buttery folds</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Almond Croissant</h4><span>$5.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Twice-baked, frangipane-filled, powdered sugar</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Scone du Jour</h4><span>$4.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Seasonal fruit or classic Earl Grey</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Tarte au Citron</h4><span>$6.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Bright lemon curd, shortbread base</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Eclair Vanille</h4><span>$5.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Madagascar vanilla cream, dark glaze</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Kouign-Amann</h4><span>$5.00</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Caramelized Breton butter cake</p>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-row"><h4>Madeleine</h4><span>$3.50</span></div>
+                  <div class="menu-rule"></div>
+                  <p>Shell-shaped, lightly lemon, perfect with tea</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-pill reveal">
+            All espresso drinks feature Skyview Roastery single-origin beans • Oat &amp; almond milk
+            available
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="roastery">
+        <div class="dark-pattern" aria-hidden="true"></div>
+        <div class="container">
+          <div class="section-head section-head-light reveal">
+            <span class="section-label">Our Sister Brand</span>
+            <h2>Skyview Roastery</h2>
+            <div class="divider"><span>&#10047;</span></div>
+            <p class="section-copy">
+              Small batch. Single origin. Rotating selection. Roasted in-house with the kind of
+              attention most people reserve for their children.
+            </p>
+          </div>
+
+          <div class="roastery-features">
+            <article class="roastery-feature reveal">
+              <div class="roastery-icon">⛰</div>
+              <h3>Single Origin</h3>
+              <p>
+                Every bag tells the story of one place. One farm, one altitude, one season. We
+                don&apos;t blend, we curate.
+              </p>
+            </article>
+            <article class="roastery-feature reveal">
+              <div class="roastery-icon">↻</div>
+              <h3>Rotating Selection</h3>
+              <p>
+                Our menu moves with the harvest. When a crop peaks, we bring it in. When it fades,
+                we let it go.
+              </p>
+            </article>
+            <article class="roastery-feature reveal">
+              <div class="roastery-icon">✺</div>
+              <h3>Medium Roast Focus</h3>
+              <p>
+                We believe medium roasting honors the bean. Enough development for sweetness,
+                enough restraint for origin character.
+              </p>
+            </article>
+          </div>
+
+          <div class="roastery-banner reveal">
+            <div class="roastery-photo">
+              <img src="./images/f10a4ea1f_generated_image.png" alt="Skyview Roastery coffee roasting" />
+            </div>
+            <div class="roastery-banner-copy">
+              <span class="section-label">Currently Roasting</span>
+              <h3>Rotating small-batch coffees selected for balance and clarity.</h3>
+              <p>
+                Primarily medium roast, but never rigidly so. The roast follows the bean, not the
+                other way around.
+              </p>
+            </div>
+          </div>
+
+          <div class="bean-grid">
+            <article class="bean-card reveal">
+              <span class="bean-tag">Medium-Light</span>
+              <h3>Ethiopia Yirgacheffe</h3>
+              <p class="bean-origin">Kochere, Ethiopia</p>
+              <div class="bean-meta">
+                <p>Jasmine, bergamot, raw honey</p>
+                <p>Process: Washed</p>
+              </div>
+            </article>
+            <article class="bean-card reveal">
+              <span class="bean-tag">Medium</span>
+              <h3>Colombia Huila</h3>
+              <p class="bean-origin">San Agustin, Colombia</p>
+              <div class="bean-meta">
+                <p>Red plum, caramel, toasted walnut</p>
+                <p>Process: Washed</p>
+              </div>
+            </article>
+            <article class="bean-card reveal">
+              <span class="bean-tag">Medium</span>
+              <h3>Guatemala Antigua</h3>
+              <p class="bean-origin">Antigua Valley, Guatemala</p>
+              <div class="bean-meta">
+                <p>Dark chocolate, spice, dried fig</p>
+                <p>Process: Washed</p>
+              </div>
+            </article>
+            <article class="bean-card reveal">
+              <span class="bean-tag">Medium</span>
+              <h3>Kenya AA Nyeri</h3>
+              <p class="bean-origin">Nyeri, Kenya</p>
+              <div class="bean-meta">
+                <p>Blackcurrant, grapefruit, brown sugar</p>
+                <p>Process: Washed</p>
+              </div>
+            </article>
+          </div>
+
+          <p class="roastery-footnote reveal">
+            Available by the bag at our counter • Whole or ground to your preferred method
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-warm atmosphere-section" id="atmosphere">
+        <div class="atmosphere-lines" aria-hidden="true">
+          <svg viewBox="0 0 800 600" preserveAspectRatio="none">
+            <path d="M-50,300 Q150,200 300,280 Q450,360 600,250 Q750,140 850,220" fill="none" stroke="currentColor" stroke-width="1" />
+            <path d="M-50,350 Q150,250 300,330 Q450,410 600,300 Q750,190 850,270" fill="none" stroke="currentColor" stroke-width="0.5" />
+            <path d="M-50,250 Q150,180 300,230 Q450,280 600,200 Q750,120 850,170" fill="none" stroke="currentColor" stroke-width="0.5" />
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">The Space</span>
+            <h2>The Vibe</h2>
+            <div class="divider"><span>&#10047;</span></div>
+            <p class="section-copy">
+              Bright, living, comfortable. A space that feels curated but never precious, where Art
+              Nouveau elegance meets bohemian ease.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item gallery-large reveal">
+              <img src="./images/cafe-interior-2.png" alt="Bright cafe interior" />
+            </div>
+            <div class="gallery-item reveal">
+              <img src="./images/f41130ce0_generated_62679940.png" alt="Latte art at Cafe La Vie" />
+            </div>
+            <div class="gallery-item reveal">
+              <img src="./images/7c5a713ea_generated_image.png" alt="Fresh pastries at Cafe La Vie" />
+            </div>
+            <div class="gallery-item reveal">
+              <img src="./images/852e0c39b_generated_7284fd44.png" alt="Coffee beans roasting at Skyview Roastery" />
+            </div>
+            <div class="gallery-item reveal">
+              <img src="./images/f67beb3ed_generated_f0605964.png" alt="Espresso pouring in bright cafe light" />
+            </div>
+          </div>
+
+          <div class="vibe-grid">
+            <article class="vibe-card reveal">
+              <div class="vibe-icon">☼</div>
+              <h3>Flooded with Light</h3>
+              <p>
+                White walls, powder blue accents, and reflective surfaces that make the whole room
+                glow.
+              </p>
+            </article>
+            <article class="vibe-card reveal">
+              <div class="vibe-icon">⌂</div>
+              <h3>Deeply Comfortable</h3>
+              <p>
+                Plush couches, layered textures, and seating that supports both quick stops and
+                unhurried afternoons.
+              </p>
+            </article>
+            <article class="vibe-card reveal">
+              <div class="vibe-icon">❃</div>
+              <h3>Living &amp; Breathing</h3>
+              <p>
+                Hanging vines, potted greenery, and green-glass touches that soften the room.
+              </p>
+            </article>
+            <article class="vibe-card reveal">
+              <div class="vibe-icon">⌘</div>
+              <h3>Art Nouveau Soul</h3>
+              <p>
+                Whiplash curves, stained-glass influence, and organic ornament made approachable.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white" id="visit">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">Come Find Us</span>
+            <h2>Visit</h2>
+            <div class="divider"><span>&#10047;</span></div>
+          </div>
+
+          <div class="visit-grid">
+            <div class="visit-copy reveal">
+              <div class="visit-block">
+                <div class="visit-title"><span>⌖</span><h3>Location</h3></div>
+                <div class="visit-indent">
+                  <p>127 Rue Belle</p>
+                  <p>Portland, OR 97205</p>
+                </div>
+              </div>
+
+              <div class="visit-block">
+                <div class="visit-title"><span>◷</span><h3>Hours</h3></div>
+                <div class="visit-indent hours-list">
+                  <div><span>Monday - Friday</span><span>6:30am - 7:00pm</span></div>
+                  <div><span>Saturday</span><span>7:00am - 8:00pm</span></div>
+                  <div><span>Sunday</span><span>7:30am - 6:00pm</span></div>
+                </div>
+              </div>
+
+              <div class="visit-block">
+                <div class="visit-title"><span>✉</span><h3>Contact</h3></div>
+                <div class="visit-indent">
+                  <p>(503) 555-0147</p>
+                  <p>hello@cafelavie.com</p>
+                  <p>@cafelavie</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visit-media reveal">
+              <div class="image-frame landscape">
+                <img src="./images/f67beb3ed_generated_f0605964.png" alt="Cafe La Vie espresso service" />
+              </div>
+              <span class="visit-accent visit-accent-left"></span>
+              <span class="visit-accent visit-accent-right"></span>
+              <div class="visit-quote">
+                <p>
+                  &ldquo;A room where the light is gentle, the coffee is serious, and nobody rushes
+                  you.&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-rule"></div>
+      <div class="container footer-grid">
+        <div class="footer-column">
+          <img class="logo logo-footer" src="./images/lavie-logo.png" alt="Cafe La Vie logo" />
+          <p>
+            Coffee &amp; patisserie. Bright rooms, serious espresso, and the kind of comfort that
+            doesn&apos;t ask you to leave.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Navigate</h4>
+          <a href="#about">Our Story</a>
+          <a href="#menu">Menu</a>
+          <a href="#roastery">Skyview Roastery</a>
+          <a href="#atmosphere">The Vibe</a>
+          <a href="#visit">Visit</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Find Us</h4>
+          <p>127 Rue Belle</p>
+          <p>Portland, OR 97205</p>
+          <p>hello@cafelavie.com</p>
+          <p>(503) 555-0147</p>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; <span id="year"></span> Cafe La Vie. All rights reserved.</p>
+        <p>Skyview Roastery is a registered trademark of Cafe La Vie LLC</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
